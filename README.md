@@ -12,5 +12,5 @@ I am passionate about technology and coding, and I am always eager to learn new 
 Feel free to connect with me!
 
 ---
-![ME saying hi](https://pixabay.com/vectors/ai-generated-hello-hi-hey-text-8628376/)
+![ME saying hi](https://github.com/Mohammad-Burair/24k-0775/blob/98b660bd108e38e14e7810e76af6b0be4b6173ca/ai-generated-8628376_1280.png)
 
