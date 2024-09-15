@@ -1,7 +1,7 @@
 /*
  *Name: Mohammad Burair 
  *Date: 15/september/2024
- *Description: Simple calculator which input two operands and one operator and print the result of that operation
+ *Description: calulate discount according to the price
 */
 #include<stdio.h>
 int main(){
