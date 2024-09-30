@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main(){
-	int a,ismultiple=0,i;
+	int a , count;
 	printf("Enter any number :\n");
 	scanf("%d",&a);
-	for(i=2; i<=9; i++){
-		if(a%i==0){
-			ismultiple=1;
-			break;
-		}
+	while(a>0){
+		a=a/10;
+		count=count+1;
 	}
-	if(ismultiple==1)
-		printf("the given number is multiple of digit number\n");
-	else
-		printf("the given number is not the multiple of digit number \n");
+	if(count==1)
+		printf("the given number is single digit \n");
+	else if(count>1)
+		printf("the given number is multiple digit \n");
+	else 
+		printf("Error\n");
 	return 0;
 }
