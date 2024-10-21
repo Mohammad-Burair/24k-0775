@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main(){
 
     int i , j , height , width ;
@@ -9,7 +10,7 @@ int main(){
     printf("Enter the number of column in the matrix :");
     scanf("%d",&width);
 
-    int arr[height][width];
+    int arr[height][width] , arrt[width][height];
 
     for(i = 0; i < height; i++){
         for(j = 0;  j < width; j++){
@@ -29,9 +30,16 @@ int main(){
     printf("The Transpose of the matrix :\n");
     for(i = 0; i < height; i++){
         for(j = 0;  j < width; j++){
-           printf(" %d ", arr[j][i]);
+           arrt[i][j] = arr[j][i];
+        }
+    }
+
+    for(i = 0; i < height; i++){
+        for(j = 0;  j < width; j++){
+           printf(" %d ", arrt[i][j]);
         }
         printf("\n");
+        
     }
  
     return 0;
