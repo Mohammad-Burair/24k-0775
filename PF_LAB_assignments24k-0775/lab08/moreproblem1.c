@@ -10,9 +10,6 @@ int main(){
     scanf("%d",&end);
 
     for(i = start ; i <= end; i++){
-        if(i == 2){
-            printf(" %d ", i);
-        }
         for(j = 2; j < i; j++){
             isprime=1;
             if(i%j == 0){
