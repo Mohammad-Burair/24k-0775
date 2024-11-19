@@ -38,6 +38,7 @@ int main(){
     }
 
     printarray(arr , a);
+    free(arr);
 
     return 0;
 }
